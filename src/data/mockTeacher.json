@@ -1,0 +1,93 @@
+[
+  {
+    "id": "demo01",
+    "name": "Demo Teacher",
+    "salutation": "Ma'am",
+    "subject": "Computer Science",
+    "department": "CSE",
+    "specialQuality": "Inspiring, patient, and deeply supportive",
+    "memory": "A memorable classroom experience where every student felt seen and every question was celebrated.",
+    "lesson": "Always keep learning. Break complex problems into smaller parts and solve them step by step.",
+    "message": "Thank you for everything you have poured into us. Happy Teachers' Day!",
+    "quote": "A great teacher inspires hope, ignites the imagination, and instills a love of learning.",
+    "photo": ""
+  },
+  {
+    "id": "001",
+    "name": "Dr G Shobana",
+    "salutation": "Ma'am",
+    "subject": "ALL ROUNDER",
+    "department": "CSE",
+    "specialQuality": "Exceptional humility, approachability, and deeply patient listening with genuine care for every student's well-being.",
+    "memory": "When she approached me with genuine care during my part-time job at D-Mart, and when she walked department lockers collecting rupee by rupee to help in an emergency.",
+    "lesson": "The profound power of patience and humble listening. Giving complete, undivided attention and dedicating yourself selflessly to others.",
+    "message": "Dear Shobhana Madam,\n\nWishing you a very Happy Teacher's Day!\n\nYou have been so much more than just a teacher to me. Thank you for your endless patience, for going above and beyond whenever we needed help, and for being the kind of role model I truly look up to.\n\nWith lots of respect and gratitude.",
+    "quote": "True humility is not thinking less of yourself; it is thinking of yourself less.",
+    "photo": "https://drive.google.com/open?id=1tnw3YEZ_aJyZcK1Q3yb0pzVRJQqqZg_V"
+  },
+  {
+    "id": "002",
+    "name": "SYED NAHIDHa",
+    "salutation": "Ma'am",
+    "subject": "All Rounder",
+    "department": "CSE",
+    "specialQuality": "Remarkable balance of immense experience, practical teaching, deep patience, and approachable nature.",
+    "memory": "During 2nd year in room 1210 when she noticed me and sparked our enduring bond, and how she recommended me for a job and supported me through every need.",
+    "lesson": "The importance of discipline, character, and practical knowledge. Being a good student is about doing the right thing and respecting others' time.",
+    "message": "Dear Nahida Ma'am,\n\nHappy Teachers' Day! You are the most experienced and respected person in our department, but to me, you are so much more than just an educator. Thank you for making learning so clear and practical, and for always taking the time to listen to us with such patience.",
+    "quote": "A great teacher takes a hand, opens a mind, and touches a heart.",
+    "photo": ""
+  },
+  {
+    "id": "003",
+    "name": "V @RUN@",
+    "salutation": "Ma'am",
+    "subject": "C Programming",
+    "department": "CSE",
+    "specialQuality": "Flawlessly combines academic excellence with being approachable, caring, loving, and supportive like family.",
+    "memory": "During the first-year external lab when she arranged my seat in roll numbers 52-53, silently demonstrating that she truly understood and supported me.",
+    "lesson": "Through your beautiful and unique way of explaining concepts, you built the foundation of my entire B.Tech journey. You taught me the true value of showing up for people.",
+    "message": "Happy Teachers' Day, Madam! When I first joined B.Tech Computer Science, I was so scared and confused. But from those first online classes to campus, you became the main pillar of my entire B.Tech life. (And I haven't forgotten—I still owe you that 100 rupees!) Thank you for everything.",
+    "quote": "A truly great teacher is hard to find, difficult to part with, and impossible to forget.",
+    "photo": "https://drive.google.com/open?id=10GIaL-Ue7ajBldlUMGQ5VZZyOarHoDJb"
+  },
+  {
+    "id": "anitha01",
+    "name": "Anitha",
+    "salutation": "Ma'am",
+    "subject": "Data Structures",
+    "department": "Computer Science and Engineering",
+    "specialQuality": "Patient, encouraging, and makes complex topics effortless",
+    "memory": "The way she explained difficult concepts using simple real-world examples until every single student understood.",
+    "lesson": "Never be afraid of difficult problems. Break them into smaller problems and solve them step by step.",
+    "message": "Thank you for always encouraging me and helping me become a better student. Happy Teachers' Day Ma'am!",
+    "quote": "The best teachers teach from the heart.",
+    "photo": "/teacher-portrait.svg"
+  },
+  {
+    "id": "ramesh01",
+    "name": "Ramesh",
+    "salutation": "Sir",
+    "subject": "Algorithms & Logic",
+    "department": "Computer Science and Engineering",
+    "specialQuality": "Clarity of thought, relentless patience, and disciplined logic",
+    "memory": "The day he stayed back after class just to walk one doubt through, step by step, until it finally clicked for all of us.",
+    "lesson": "A hard problem is only a simple problem that hasn't been broken down yet.",
+    "message": "Dear Sir,\n\nThank you for the patience you showed us on the days we understood nothing at all. You made difficult things feel possible, and that confidence stayed with us.",
+    "quote": "Simplicity is prerequisite for reliability.",
+    "photo": "/teacher-portrait.svg"
+  },
+  {
+    "id": "priya01",
+    "name": "Priya",
+    "salutation": "Ma'am",
+    "subject": "Database Management Systems",
+    "department": "Computer Science and Engineering",
+    "specialQuality": "Warmth, curiosity, and encouraging every student voice",
+    "memory": "Her classes never felt like a lecture — they felt like a conversation where every question was welcome and valued.",
+    "lesson": "Structure, honesty, and care matter as much in life as they do in system design.",
+    "message": "Dear Ma'am,\n\nThank you for making the classroom a place where it was safe to be wrong and try again. That lesson will outlive every syllabus.",
+    "quote": "Teaching is the greatest act of optimism.",
+    "photo": "/teacher-portrait.svg"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "The Classroom of Memories",
+  "description": "An interactive 3D Teachers' Day journey: from a classroom of memories to a universe of gratitude, with personalized messages for faculty members.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

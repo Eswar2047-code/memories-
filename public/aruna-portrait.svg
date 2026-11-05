@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Halo Gradients -->
+    <radialGradient id="arunaHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#81C784" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#4CAF50" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0A150E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="arunaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D2235" />
+      <stop offset="50%" stop-color="#0A1826" />
+      <stop offset="100%" stop-color="#060E17" />
+    </linearGradient>
+
+    <!-- Gold & Green Trim Gradients -->
+    <linearGradient id="arunaGoldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4" />
+      <stop offset="35%" stop-color="#D4E157" />
+      <stop offset="70%" stop-color="#9E9D24" />
+      <stop offset="100%" stop-color="#EEC373" />
+    </linearGradient>
+
+    <!-- Aruna Ma'am's Signature Blue Check Saree -->
+    <linearGradient id="blueSareeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E88E5" />
+      <stop offset="40%" stop-color="#1565C0" />
+      <stop offset="80%" stop-color="#0D47A1" />
+      <stop offset="100%" stop-color="#092C66" />
+    </linearGradient>
+
+    <!-- Green Silk Blouse -->
+    <linearGradient id="greenBlouseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="40%" stop-color="#43A047" />
+      <stop offset="80%" stop-color="#2E7D32" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </linearGradient>
+
+    <!-- Golden Olive-Green Zari Saree Border -->
+    <linearGradient id="greenZariGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#DCEDC8" />
+      <stop offset="30%" stop-color="#AED581" />
+      <stop offset="70%" stop-color="#7CB342" />
+      <stop offset="100%" stop-color="#C0CA33" />
+    </linearGradient>
+
+    <!-- Skin Tone -->
+    <linearGradient id="arunaSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8B58D" />
+      <stop offset="60%" stop-color="#D69C72" />
+      <stop offset="100%" stop-color="#B87B52" />
+    </linearGradient>
+
+    <!-- Hair Tone -->
+    <linearGradient id="hairDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#26222D" />
+      <stop offset="50%" stop-color="#16131C" />
+      <stop offset="100%" stop-color="#09080D" />
+    </linearGradient>
+
+    <!-- Emerald Beads Mala Gradient -->
+    <linearGradient id="emeraldMala" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A5D6A7" />
+      <stop offset="50%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </linearGradient>
+
+    <clipPath id="arunaClip">
+      <circle cx="200" cy="200" r="172" />
+    </clipPath>
+  </defs>
+
+  <!-- Ambient Outer Glow -->
+  <circle cx="200" cy="200" r="195" fill="url(#arunaHalo)" />
+
+  <!-- Outer Double Gold-Green Border -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#arunaGoldBorder)" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.7" />
+  <circle cx="200" cy="200" r="178" fill="none" stroke="url(#arunaGoldBorder)" stroke-width="2.5" />
+  <circle cx="200" cy="200" r="174" fill="none" stroke="#0D2235" stroke-width="2" />
+
+  <!-- Subject Inside Circular Frame -->
+  <g clip-path="url(#arunaClip)">
+    <rect x="0" y="0" width="400" height="400" fill="url(#arunaBg)" />
+    
+    <!-- Warm Backlight Glow -->
+    <circle cx="200" cy="170" r="125" fill="#81C784" opacity="0.15" filter="blur(20px)" />
+
+    <!-- Hair Backing -->
+    <ellipse cx="200" cy="180" rx="96" ry="108" fill="url(#hairDark)" />
+
+    <!-- Green Silk Blouse Base on Shoulders & Arms -->
+    <path d="M 85 400 L 85 315 Q 130 265 200 270 Q 270 265 315 315 L 315 400 Z" fill="url(#greenBlouseGrad)" />
+    <!-- Blouse Gold Brocade Textures -->
+    <path d="M 88 335 Q 120 315 140 335" stroke="#C0CA33" stroke-width="3" fill="none" stroke-dasharray="3 2" />
+    <path d="M 260 335 Q 280 315 312 335" stroke="#C0CA33" stroke-width="3" fill="none" stroke-dasharray="3 2" />
+
+    <!-- Royal Blue Checked Saree Body -->
+    <path d="M 80 400 Q 105 295 170 255 L 230 255 Q 320 305 328 400 Z" fill="url(#blueSareeGrad)" />
+
+    <!-- Subtle Blue Saree Checks / Silver Buttas (from photo) -->
+    <path d="M 100 370 L 160 370" stroke="#64B5F6" stroke-width="1" opacity="0.4" />
+    <path d="M 120 340 L 180 340" stroke="#64B5F6" stroke-width="1" opacity="0.4" />
+    <path d="M 140 310 L 200 310" stroke="#64B5F6" stroke-width="1" opacity="0.4" />
+    <circle cx="130" cy="355" r="2.5" fill="#FFFFFF" opacity="0.6" />
+    <circle cx="160" cy="325" r="2.5" fill="#FFFFFF" opacity="0.6" />
+    <circle cx="180" cy="365" r="2.5" fill="#FFFFFF" opacity="0.6" />
+    <circle cx="210" cy="335" r="2.5" fill="#FFFFFF" opacity="0.6" />
+
+    <!-- Golden Olive-Green Zari Saree Border (from photo) -->
+    <path d="M 100 400 Q 130 295 180 258 L 205 258 Q 155 300 125 400 Z" fill="url(#greenZariGrad)" />
+    <path d="M 108 400 Q 138 300 185 258" stroke="#F0F4C3" stroke-width="2" fill="none" />
+    <path d="M 118 400 Q 148 305 195 258" stroke="#D4E157" stroke-width="1.5" fill="none" />
+
+    <!-- Neck & Clavicle -->
+    <path d="M 165 195 L 165 255 Q 200 270 235 255 L 235 195 Z" fill="url(#arunaSkin)" />
+    <path d="M 165 210 Q 200 230 235 210 Q 200 220 165 210 Z" fill="#995E36" opacity="0.3" />
+
+    <!-- Multi-strand Green Beaded Pearl Mala (from photo) -->
+    <path d="M 170 215 Q 200 280 230 215" stroke="url(#emeraldMala)" stroke-width="3" fill="none" stroke-dasharray="3 2" />
+    <path d="M 174 218 Q 200 270 226 218" stroke="#AED581" stroke-width="1.5" fill="none" stroke-dasharray="2 2" />
+    
+    <!-- Large Floral Diamond/Emerald Pendant (from photo) -->
+    <g transform="translate(200, 276)">
+      <circle cx="0" cy="0" r="8" fill="#FFFDE7" stroke="#9CCC65" stroke-width="1.5" />
+      <circle cx="0" cy="0" r="4" fill="#2E7D32" />
+      <circle cx="0" cy="10" r="3" fill="#FFFDE7" />
+      <circle cx="-7" cy="8" r="2" fill="#AED581" />
+      <circle cx="7" cy="8" r="2" fill="#AED581" />
+    </g>
+
+    <!-- Face Structure -->
+    <ellipse cx="200" cy="175" rx="55" ry="64" fill="url(#arunaSkin)" />
+    <!-- Cheeks Glow -->
+    <ellipse cx="172" cy="190" rx="14" ry="10" fill="#E57373" opacity="0.15" filter="blur(4px)" />
+    <ellipse cx="228" cy="190" rx="14" ry="10" fill="#E57373" opacity="0.15" filter="blur(4px)" />
+
+    <!-- Hair Framing and Ponytail / Half-up Style -->
+    <path d="M 145 175 Q 150 125 200 130 Q 250 125 255 175 Q 240 144 200 148 Q 160 144 145 175 Z" fill="url(#hairDark)" />
+    <!-- Hair flowing gently behind shoulders -->
+    <path d="M 145 175 Q 138 215 152 245 Q 146 200 154 175 Z" fill="url(#hairDark)" />
+    <path d="M 255 175 Q 262 215 248 245 Q 254 200 246 175 Z" fill="url(#hairDark)" />
+    <line x1="200" y1="130" x2="200" y2="148" stroke="#E8B58D" stroke-width="1.2" opacity="0.7" />
+
+    <!-- Delicate Round Bindi -->
+    <circle cx="200" cy="160" r="2.8" fill="#B71C1C" />
+
+    <!-- Graceful Eyebrows -->
+    <path d="M 167 168 Q 179 163 191 167" stroke="#1D1822" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path d="M 209 167 Q 221 163 233 168" stroke="#1D1822" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+    <!-- Bright, Welcoming, Expressive Eyes -->
+    <!-- Left Eye -->
+    <ellipse cx="178" cy="178" rx="10" ry="5.5" fill="#FFFFFF" />
+    <circle cx="178" cy="178" r="4.5" fill="#211714" />
+    <circle cx="179.5" cy="177" r="1.5" fill="#FFFFFF" />
+    <path d="M 166 178 Q 178 171 190 178" stroke="#18131D" stroke-width="1.6" fill="none" />
+    <!-- Right Eye -->
+    <ellipse cx="222" cy="178" rx="10" ry="5.5" fill="#FFFFFF" />
+    <circle cx="222" cy="178" r="4.5" fill="#211714" />
+    <circle cx="223.5" cy="177" r="1.5" fill="#FFFFFF" />
+    <path d="M 210 178 Q 222 171 234 178" stroke="#18131D" stroke-width="1.6" fill="none" />
+
+    <!-- Nose -->
+    <path d="M 200 172 L 198 194 Q 200 199 204 195" stroke="#9E6139" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <path d="M 194 196 Q 200 200 206 196" stroke="#9E6139" stroke-width="1.4" fill="none" />
+
+    <!-- Radiant, Joyful, Warm Smile (from photo) -->
+    <path d="M 183 212 Q 200 226 217 212" stroke="#C2185B" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    <path d="M 185 212 Q 200 220 215 212" fill="#FFFFFF" opacity="0.95" />
+    <path d="M 187 215 Q 200 224 213 215" stroke="#AD1457" stroke-width="1.6" stroke-linecap="round" fill="none" />
+
+    <!-- Gold Earrings (Studs from photo) -->
+    <circle cx="144" cy="196" r="3.5" fill="url(#arunaGoldBorder)" />
+    <circle cx="144" cy="196" r="1.5" fill="#FFFDE7" />
+    <circle cx="256" cy="196" r="3.5" fill="url(#arunaGoldBorder)" />
+    <circle cx="256" cy="196" r="1.5" fill="#FFFDE7" />
+
+    <!-- Modern Pink Smartwatch (on her left wrist, from photo) -->
+    <g transform="translate(142, 385)">
+      <rect x="-14" y="-8" width="28" height="16" rx="5" fill="#F8BBD0" stroke="#F48FB1" stroke-width="1.5" />
+      <rect x="-9" y="-6" width="18" height="12" rx="3" fill="#212121" />
+      <!-- Watch screen tick -->
+      <line x1="-2" y1="0" x2="4" y2="0" stroke="#81C784" stroke-width="1" />
+    </g>
+
+    <!-- Name Ribbon Banner at Bottom -->
+    <g transform="translate(200, 375)">
+      <rect x="-85" y="-12" width="170" height="24" rx="12" fill="#0A1E2E" stroke="url(#arunaGoldBorder)" stroke-width="1.5" />
+      <text x="0" y="3.5" font-family="'Cinzel Decorative', 'Cinzel', serif" font-size="10" font-weight="700" fill="#D4E157" text-anchor="middle" letter-spacing="1">V. ARUNA MA'AM</text>
+      <polygon points="-72,-0.5 -70,2.5 -74,2.5" fill="#D4E157" />
+      <polygon points="72,-0.5 74,2.5 70,2.5" fill="#D4E157" />
+    </g>
+  </g>
+</svg>

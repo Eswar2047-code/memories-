@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Halo Gradients -->
+    <radialGradient id="shobhanaHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EEC373" stop-opacity="0.4" />
+      <stop offset="60%" stop-color="#CA9A42" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0E0D15" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="shobhanaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21152B" />
+      <stop offset="50%" stop-color="#180E20" />
+      <stop offset="100%" stop-color="#0D0712" />
+    </linearGradient>
+    
+    <!-- Gold Trim Gradients -->
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4D4" />
+      <stop offset="35%" stop-color="#EEC373" />
+      <stop offset="70%" stop-color="#B8860B" />
+      <stop offset="100%" stop-color="#EEC373" />
+    </linearGradient>
+
+    <!-- Dr. Shobhana's Signature Violet Saree Gradients -->
+    <linearGradient id="violetSareeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C2D8A" />
+      <stop offset="40%" stop-color="#55226E" />
+      <stop offset="80%" stop-color="#401654" />
+      <stop offset="100%" stop-color="#2D0E3D" />
+    </linearGradient>
+
+    <!-- Magenta / Pink Blouse Gradients -->
+    <linearGradient id="pinkBlouseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D81B60" />
+      <stop offset="50%" stop-color="#C2185B" />
+      <stop offset="100%" stop-color="#880E4F" />
+    </linearGradient>
+
+    <!-- Zari Golden-Pink Saree Border -->
+    <linearGradient id="zariBorderGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FCE4EC" />
+      <stop offset="30%" stop-color="#F48FB1" />
+      <stop offset="70%" stop-color="#E5A4CB" />
+      <stop offset="100%" stop-color="#EEC373" />
+    </linearGradient>
+
+    <!-- Natural Indian Warm Skin Tone -->
+    <linearGradient id="shobhanaSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5AA82" />
+      <stop offset="60%" stop-color="#D19167" />
+      <stop offset="100%" stop-color="#B4744A" />
+    </linearGradient>
+
+    <!-- Shiny Jet Black Hair -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2A2433" />
+      <stop offset="40%" stop-color="#191421" />
+      <stop offset="100%" stop-color="#0D0A12" />
+    </linearGradient>
+
+    <!-- Gold Jewelry Gradient -->
+    <linearGradient id="goldJewelry" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4" />
+      <stop offset="50%" stop-color="#FDD835" />
+      <stop offset="80%" stop-color="#F57F17" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+
+    <!-- Clip Path for circular frame -->
+    <clipPath id="shobhanaClip">
+      <circle cx="200" cy="200" r="172" />
+    </clipPath>
+  </defs>
+
+  <!-- Ambient Outer Glow -->
+  <circle cx="200" cy="200" r="195" fill="url(#shobhanaHalo)" />
+
+  <!-- Outer Double Gold Frame Rings -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#goldBorder)" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.7" />
+  <circle cx="200" cy="200" r="178" fill="none" stroke="url(#goldBorder)" stroke-width="2.5" />
+  <circle cx="200" cy="200" r="174" fill="none" stroke="#251633" stroke-width="2" />
+
+  <!-- Main Circular Subject Container -->
+  <g clip-path="url(#shobhanaClip)">
+    <!-- Rich Studio Backdrop -->
+    <rect x="0" y="0" width="400" height="400" fill="url(#shobhanaBg)" />
+
+    <!-- Warm Divine Radiance Behind Head -->
+    <circle cx="200" cy="170" r="130" fill="#EEC373" opacity="0.12" filter="blur(20px)" />
+
+    <!-- Hair Back Volume -->
+    <ellipse cx="200" cy="180" rx="98" ry="110" fill="url(#hairGrad)" />
+
+    <!-- Upper Body / Pink Blouse Base -->
+    <path d="M 90 400 L 90 320 Q 130 270 200 275 Q 270 270 310 320 L 310 400 Z" fill="url(#pinkBlouseGrad)" />
+
+    <!-- Blouse Gold Embroidery Details on Sleeves -->
+    <path d="M 90 330 Q 120 315 140 335" stroke="url(#goldJewelry)" stroke-width="3" fill="none" stroke-dasharray="3 2" />
+    <path d="M 260 335 Q 280 315 310 330" stroke="url(#goldJewelry)" stroke-width="3" fill="none" stroke-dasharray="3 2" />
+
+    <!-- Violet / Purple Silk Saree Draped Across Body -->
+    <!-- Left to Right Majestic Pleated Saree Drape -->
+    <path d="M 85 400 Q 110 300 170 260 L 230 260 Q 320 310 325 400 Z" fill="url(#violetSareeGrad)" />
+    
+    <!-- Saree Folds & Highlights -->
+    <path d="M 120 390 Q 155 310 185 265" stroke="#7A399B" stroke-width="2.5" fill="none" opacity="0.6" />
+    <path d="M 150 400 Q 180 330 205 270" stroke="#7A399B" stroke-width="2.5" fill="none" opacity="0.6" />
+    <path d="M 180 400 Q 210 340 235 275" stroke="#7A399B" stroke-width="2" fill="none" opacity="0.5" />
+
+    <!-- Prominent Saree Zari Border (Golden-Pink Lace Border from photo) -->
+    <path d="M 105 400 Q 135 300 185 262 L 205 262 Q 155 305 125 400 Z" fill="url(#zariBorderGrad)" />
+    <path d="M 112 400 Q 140 305 188 262" stroke="url(#goldJewelry)" stroke-width="1.5" fill="none" />
+    <path d="M 120 400 Q 148 310 196 262" stroke="url(#goldJewelry)" stroke-width="1.5" fill="none" />
+
+    <!-- Neck & Clavicle Area -->
+    <path d="M 165 200 L 165 260 Q 200 275 235 260 L 235 200 Z" fill="url(#shobhanaSkin)" />
+    <!-- Neck Shadow -->
+    <path d="M 165 215 Q 200 235 235 215 Q 200 225 165 215 Z" fill="#995E36" opacity="0.3" />
+
+    <!-- Long Gold Chain Necklace with Elaborate Traditional Pendant (from photo) -->
+    <path d="M 172 230 Q 200 295 228 230" stroke="url(#goldJewelry)" stroke-width="2.5" fill="none" />
+    <!-- Black Beads Delicate Mangalsutra / Second Chain -->
+    <path d="M 176 220 Q 200 260 224 220" stroke="#1A1820" stroke-width="1.5" fill="none" stroke-dasharray="2 2" />
+    <circle cx="200" cy="256" r="2.5" fill="url(#goldJewelry)" />
+    <!-- Hanging Gold Pendant -->
+    <g transform="translate(200, 290)">
+      <circle cx="0" cy="0" r="7" fill="url(#goldJewelry)" />
+      <polygon points="0,-4 4,3 -4,3" fill="#D81B60" />
+      <circle cx="0" cy="8" r="2.5" fill="url(#goldJewelry)" />
+      <circle cx="-5" cy="6" r="1.5" fill="url(#goldJewelry)" />
+      <circle cx="5" cy="6" r="1.5" fill="url(#goldJewelry)" />
+    </g>
+
+    <!-- Face Structure -->
+    <ellipse cx="200" cy="180" rx="56" ry="66" fill="url(#shobhanaSkin)" />
+    <!-- Soft Cheeks Warmth -->
+    <ellipse cx="172" cy="195" rx="14" ry="10" fill="#D81B60" opacity="0.12" filter="blur(4px)" />
+    <ellipse cx="228" cy="195" rx="14" ry="10" fill="#D81B60" opacity="0.12" filter="blur(4px)" />
+
+    <!-- Natural Hairline & Parting -->
+    <path d="M 144 180 Q 150 130 200 135 Q 250 130 256 180 Q 240 148 200 152 Q 160 148 144 180 Z" fill="url(#hairGrad)" />
+    <!-- Hair Side Wings -->
+    <path d="M 144 180 Q 138 210 152 235 Q 146 200 154 180 Z" fill="url(#hairGrad)" />
+    <path d="M 256 180 Q 262 210 248 235 Q 254 200 246 180 Z" fill="url(#hairGrad)" />
+    <!-- Subtle Middle Parting -->
+    <line x1="200" y1="135" x2="200" y2="152" stroke="#E5AA82" stroke-width="1.2" opacity="0.7" />
+
+    <!-- Red Kumkum / Bindi on Forehead (from photo) -->
+    <circle cx="200" cy="164" r="3.2" fill="#B71C1C" />
+    <circle cx="200" cy="164" r="1" fill="#FF8A80" />
+
+    <!-- Eyebrows (Graceful curved arches) -->
+    <path d="M 166 172 Q 178 167 190 171" stroke="#1D1822" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path d="M 210 171 Q 222 167 234 172" stroke="#1D1822" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+    <!-- Gentle, Kind Eyes with Warm Expression (No glasses) -->
+    <!-- Left Eye -->
+    <ellipse cx="178" cy="182" rx="10" ry="5.5" fill="#FFFFFF" />
+    <circle cx="178" cy="182" r="4.5" fill="#261A13" />
+    <circle cx="179" cy="181" r="1.5" fill="#FFFFFF" />
+    <path d="M 166 182 Q 178 175 190 182" stroke="#1F151E" stroke-width="1.6" fill="none" />
+    <!-- Right Eye -->
+    <ellipse cx="222" cy="182" rx="10" ry="5.5" fill="#FFFFFF" />
+    <circle cx="222" cy="182" r="4.5" fill="#261A13" />
+    <circle cx="223" cy="181" r="1.5" fill="#FFFFFF" />
+    <path d="M 210 182 Q 222 175 234 182" stroke="#1F151E" stroke-width="1.6" fill="none" />
+
+    <!-- Nose -->
+    <path d="M 200 176 L 198 198 Q 200 203 204 199" stroke="#9E6139" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <path d="M 194 200 Q 200 204 206 200" stroke="#9E6139" stroke-width="1.4" fill="none" />
+
+    <!-- Pleasant, Kind, Dignified Smile (from photo) -->
+    <path d="M 184 218 Q 200 229 216 218" stroke="#B71C1C" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M 186 218 Q 200 225 214 218" fill="#FFFFFF" opacity="0.9" />
+    <path d="M 188 221 Q 200 228 212 221" stroke="#901414" stroke-width="1.5" stroke-linecap="round" fill="none" />
+
+    <!-- Gold Dangling Earrings (Jhumkas/Drops from photo) -->
+    <!-- Left Earring -->
+    <g transform="translate(142, 202)">
+      <circle cx="0" cy="0" r="3" fill="url(#goldJewelry)" />
+      <polygon points="0,2 4,8 -4,8" fill="url(#goldJewelry)" />
+      <circle cx="0" cy="9.5" r="1.5" fill="url(#goldJewelry)" />
+    </g>
+    <!-- Right Earring -->
+    <g transform="translate(258, 202)">
+      <circle cx="0" cy="0" r="3" fill="url(#goldJewelry)" />
+      <polygon points="0,2 4,8 -4,8" fill="url(#goldJewelry)" />
+      <circle cx="0" cy="9.5" r="1.5" fill="url(#goldJewelry)" />
+    </g>
+
+    <!-- Name Ribbon Banner at Bottom -->
+    <g transform="translate(200, 375)">
+      <rect x="-85" y="-12" width="170" height="24" rx="12" fill="#1B1224" stroke="url(#goldBorder)" stroke-width="1.5" />
+      <text x="0" y="3.5" font-family="'Cinzel Decorative', 'Cinzel', serif" font-size="10" font-weight="700" fill="#EEC373" text-anchor="middle" letter-spacing="1">DR. G. SHOBHANA</text>
+      <!-- Tiny side stars -->
+      <polygon points="-72,-0.5 -70,2.5 -74,2.5" fill="#EEC373" />
+      <polygon points="72,-0.5 74,2.5 70,2.5" fill="#EEC373" />
+    </g>
+  </g>
+</svg>

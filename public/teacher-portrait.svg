@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="haloGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EEC373" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#CA9A42" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0E0D15" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B2E" />
+      <stop offset="50%" stop-color="#141220" />
+      <stop offset="100%" stop-color="#0A0912" />
+    </linearGradient>
+    
+    <!-- Gold Trim Gradients -->
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1D0" />
+      <stop offset="35%" stop-color="#EEC373" />
+      <stop offset="70%" stop-color="#B8860B" />
+      <stop offset="100%" stop-color="#EEC373" />
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EEC373" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Attire Gradients -->
+    <linearGradient id="sareeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B1D2F" />
+      <stop offset="50%" stop-color="#4A101E" />
+      <stop offset="100%" stop-color="#2D0810" />
+    </linearGradient>
+    <linearGradient id="palluGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#EEC373" />
+      <stop offset="30%" stop-color="#CA9A42" />
+      <stop offset="70%" stop-color="#8B6914" />
+      <stop offset="100%" stop-color="#EEC373" />
+    </linearGradient>
+
+    <!-- Skin Tone Gradients -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8B58D" />
+      <stop offset="70%" stop-color="#D49B70" />
+      <stop offset="100%" stop-color="#B87B52" />
+    </linearGradient>
+
+    <!-- Hair Gradient -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#221F28" />
+      <stop offset="50%" stop-color="#14131A" />
+      <stop offset="100%" stop-color="#0B0A0F" />
+    </linearGradient>
+    
+    <!-- Clip Path for circular portrait -->
+    <clipPath id="circleClip">
+      <circle cx="200" cy="200" r="172" />
+    </clipPath>
+  </defs>
+
+  <!-- Ambient Outer Halo Glow -->
+  <circle cx="200" cy="200" r="195" fill="url(#haloGrad)" />
+
+  <!-- Outer Golden Ring with subtle dashed celestial ring -->
+  <circle cx="200" cy="200" r="184" fill="none" stroke="url(#goldBorder)" stroke-width="3" stroke-opacity="0.8" />
+  <circle cx="200" cy="200" r="178" fill="none" stroke="#EEC373" stroke-width="1" stroke-dasharray="4 6" stroke-opacity="0.4" />
+
+  <!-- Clipped Portrait Area -->
+  <g clip-path="url(#circleClip)">
+    <!-- Dark Atmospheric Studio Background -->
+    <rect x="0" y="0" width="400" height="400" fill="url(#bgGrad)" />
+
+    <!-- Soft Backlight Behind Head -->
+    <circle cx="200" cy="180" r="120" fill="#EEC373" fill-opacity="0.12" />
+
+    <!-- Star Dust Particles in Background -->
+    <circle cx="100" cy="90" r="1.5" fill="#FFF1D0" opacity="0.6" />
+    <circle cx="290" cy="80" r="1.5" fill="#FFF1D0" opacity="0.5" />
+    <circle cx="80" cy="190" r="1" fill="#FFF1D0" opacity="0.4" />
+    <circle cx="320" cy="170" r="1.2" fill="#FFF1D0" opacity="0.4" />
+    <circle cx="130" cy="140" r="1" fill="#FFF1D0" opacity="0.5" />
+
+    <!-- Academic Shoulder & Saree (Attire) -->
+    <!-- Base Shoulders -->
+    <path d="M 60 400 C 70 320, 130 270, 200 270 C 270 270, 330 320, 340 400 Z" fill="url(#sareeGrad)" />
+    
+    <!-- Saree Pleats and Border (Pallu with gold zari) -->
+    <path d="M 120 400 L 175 275 C 185 275, 215 275, 225 275 L 280 400 Z" fill="#5A1425" />
+    <path d="M 90 400 C 110 330, 160 280, 210 275 L 225 275 C 170 285, 125 335, 105 400 Z" fill="url(#palluGrad)" />
+    <!-- Fine Gold Zari Motif on Pallu -->
+    <path d="M 100 400 C 118 332, 165 282, 215 278" fill="none" stroke="#FFF1D0" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.8" />
+    <path d="M 112 400 C 128 335, 172 288, 220 282" fill="none" stroke="#EEC373" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.7" />
+
+    <!-- Neck & Collarbone -->
+    <path d="M 175 220 L 175 265 C 175 275, 225 275, 225 265 L 225 220 Z" fill="url(#skinGrad)" />
+    <path d="M 180 258 C 190 264, 210 264, 220 258" fill="none" stroke="#A76840" stroke-width="2" opacity="0.4" />
+    
+    <!-- Delicate Gold Chain / Mangalsutra / Pendant -->
+    <path d="M 165 255 C 180 280, 220 280, 235 255" fill="none" stroke="url(#goldBorder)" stroke-width="2" />
+    <circle cx="200" cy="276" r="3.5" fill="#EEC373" stroke="#FFF1D0" stroke-width="1" />
+
+    <!-- Hair Back/Bun -->
+    <ellipse cx="200" cy="165" rx="72" ry="78" fill="url(#hairGrad)" />
+    <circle cx="200" cy="115" r="42" fill="url(#hairGrad)" />
+
+    <!-- Head & Face -->
+    <path d="M 148 165 C 148 115, 252 115, 252 165 C 252 215, 225 240, 200 240 C 175 240, 148 215, 148 165 Z" fill="url(#skinGrad)" />
+
+    <!-- Hair Front/Sides Framing the Face -->
+    <path d="M 144 150 C 144 110, 170 95, 200 95 C 230 95, 256 110, 256 150 C 248 120, 230 112, 200 115 C 170 112, 152 120, 144 150 Z" fill="url(#hairGrad)" />
+    <path d="M 144 150 C 144 185, 152 205, 156 210 C 153 195, 150 170, 152 150 Z" fill="url(#hairGrad)" />
+    <path d="M 256 150 C 256 185, 248 205, 244 210 C 247 195, 250 170, 248 150 Z" fill="url(#hairGrad)" />
+
+    <!-- Traditional Red Bindi / Kumkum on Forehead -->
+    <circle cx="200" cy="148" r="3" fill="#A81D2D" />
+    <circle cx="200" cy="148" r="4" fill="none" stroke="#EEC373" stroke-width="0.8" opacity="0.7" />
+
+    <!-- Eyebrows - Gentle, intelligent arch -->
+    <path d="M 166 160 C 174 156, 185 157, 192 161" fill="none" stroke="#1A1820" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M 234 160 C 226 156, 215 157, 208 161" fill="none" stroke="#1A1820" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Warm, Smiling Eyes with kind crinkles -->
+    <!-- Left Eye -->
+    <path d="M 168 171 C 174 167, 184 167, 190 172 C 184 175, 174 175, 168 171 Z" fill="#FFFFFF" />
+    <ellipse cx="179" cy="171" rx="3.5" ry="3.5" fill="#3D2314" />
+    <circle cx="178" cy="170" r="1.2" fill="#FFFFFF" />
+    <path d="M 166 170 C 173 166, 185 166, 192 171" fill="none" stroke="#1A1820" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M 165 174 C 163 172, 162 175, 164 177" fill="none" stroke="#B87B52" stroke-width="1" opacity="0.6" />
+
+    <!-- Right Eye -->
+    <path d="M 232 171 C 226 167, 216 167, 210 172 C 216 175, 226 175, 232 171 Z" fill="#FFFFFF" />
+    <ellipse cx="221" cy="171" rx="3.5" ry="3.5" fill="#3D2314" />
+    <circle cx="220" cy="170" r="1.2" fill="#FFFFFF" />
+    <path d="M 234 170 C 227 166, 215 166, 208 171" fill="none" stroke="#1A1820" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M 235 174 C 237 172, 238 175, 236 177" fill="none" stroke="#B87B52" stroke-width="1" opacity="0.6" />
+
+    <!-- Distinguished Spectacles (Golden rim - scholarly & approachable) -->
+    <rect x="162" y="163" width="32" height="20" rx="8" ry="8" fill="none" stroke="url(#goldBorder)" stroke-width="1.6" />
+    <rect x="206" y="163" width="32" height="20" rx="8" ry="8" fill="none" stroke="url(#goldBorder)" stroke-width="1.6" />
+    <path d="M 194 170 C 198 168, 202 168, 206 170" fill="none" stroke="url(#goldBorder)" stroke-width="1.6" />
+    <path d="M 162 168 L 150 166" fill="none" stroke="url(#goldBorder)" stroke-width="1.4" />
+    <path d="M 238 168 L 250 166" fill="none" stroke="url(#goldBorder)" stroke-width="1.4" />
+    <!-- Glass Lens Reflections -->
+    <path d="M 166 168 L 176 166" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5" stroke-linecap="round" />
+    <path d="M 210 168 L 220 166" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5" stroke-linecap="round" />
+
+    <!-- Gentle Nose -->
+    <path d="M 200 168 L 198 192 C 198 195, 202 195, 202 192" fill="none" stroke="#B87B52" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 194 193 C 197 196, 203 196, 206 193" fill="none" stroke="#A76840" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Warm, Benevolent Smile -->
+    <path d="M 184 207 C 190 216, 210 216, 216 207" fill="none" stroke="#9E3A4B" stroke-width="2.4" stroke-linecap="round" />
+    <path d="M 188 208 C 194 214, 206 214, 212 208" fill="#FFFFFF" opacity="0.8" />
+    <path d="M 182 206 C 180 208, 181 210, 183 209" fill="none" stroke="#B87B52" stroke-width="1.2" />
+    <path d="M 218 206 C 220 208, 219 210, 217 209" fill="none" stroke="#B87B52" stroke-width="1.2" />
+
+    <!-- Ear & Traditional Pearl/Gold Jhumki/Stud Earrings -->
+    <!-- Left Earring -->
+    <ellipse cx="150" cy="180" rx="3" ry="5" fill="url(#skinGrad)" />
+    <circle cx="149" cy="186" r="2.5" fill="#FFF1D0" stroke="#EEC373" stroke-width="1" />
+    <circle cx="149" cy="190" r="1.5" fill="#EEC373" />
+    <!-- Right Earring -->
+    <ellipse cx="250" cy="180" rx="3" ry="5" fill="url(#skinGrad)" />
+    <circle cx="251" cy="186" r="2.5" fill="#FFF1D0" stroke="#EEC373" stroke-width="1" />
+    <circle cx="251" cy="190" r="1.5" fill="#EEC373" />
+
+    <!-- Subtle Vignette / Inner Shadow -->
+    <circle cx="200" cy="200" r="172" fill="url(#innerGlow)" />
+  </g>
+
+  <!-- Bottom Golden Academic Plaque Ribbon -->
+  <g transform="translate(200, 362)">
+    <rect x="-110" y="-16" width="220" height="28" rx="14" fill="#141220" stroke="url(#goldBorder)" stroke-width="1.5" />
+    <text x="0" y="2" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.18em" fill="#EEC373">
+      DR. G. SHOBANA
+    </text>
+    <circle cx="-94" cy="-2" r="3" fill="#EEC373" />
+    <circle cx="94" cy="-2" r="3" fill="#EEC373" />
+  </g>
+
+  <!-- Top Star Accent -->
+  <g transform="translate(200, 18)">
+    <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FFF1D0" />
+    <circle cx="0" cy="0" r="1.5" fill="#EEC373" />
+  </g>
+</svg>
